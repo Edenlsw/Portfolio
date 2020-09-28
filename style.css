@@ -87,20 +87,23 @@ nav a:hover::before {
     width: 100%;
 }
 /* nav design finished*/
+
+
+
 h1 {
     color:#7575FF;
-    font-size: 150px;
+    font-size: 200px;
     text-align: left;
-    margin: 5%;
+    margin: 5% ;
     font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; 
-    margin-top: -3%;
+    
 }
 h2 {
     color: black;
     font-size: 80px;
     text-align: left;
     margin: 5%;
-    margin-top: 8%;
+    margin-top: 80px;
     font-weight: 500;
     
 }
@@ -133,55 +136,27 @@ h1.about {
     font-size: 100px;
 }
 
-section.about + p {
-    word-spacing: 30px;
-}
-
-.grid-container {
-    display: grid;
-    grid-gap: 10px;
-    background-color: lawngreen;
-    padding: 10px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.item1 {
-  grid-column: 1 / span 2;
-  grid-row: 1;
-}
-
-.item2 {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-}
-
-.item5 {
-  grid-column: 1 / span 3;
-  grid-row: 3;
-}
 
 .description {
     text-align: left;
     line-height: 40px;
     font-size: 20px;
+    margin: 10px 200px;
    
 }
 
+
+/* social buttons */
 .media {
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 38%;
     transform: translate(-53%,);
 }
 .media li {
     text-align: center;
     list-style: none;
-    margin: 20px;
+    margin: 20px ;
     display: inline-block;
     font-size: 20px;
     padding: 20px 20px;
@@ -198,3 +173,8 @@ section.about + p {
     transition: .5s;
 }
 
+
+
+.h1-projects {
+    font-size: 50px;
+}
