@@ -21,7 +21,7 @@
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {}
-body {
+body{
     margin: 0;
     background: #f8f8ff;
     font-family: sans-serif;
@@ -137,7 +137,8 @@ h1.about {
 }
 
 
-.description {
+.description,
+.about-details {
     text-align: left;
     line-height: 40px;
     font-size: 20px;
@@ -178,3 +179,19 @@ h1.about {
 .h1-projects {
     font-size: 50px;
 }
+
+
+.about-section {
+    background-color: #a6b1e1;
+    border-radius: 2px;
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+
+.intro {
+    padding-bottom: 500px;
+}
+
